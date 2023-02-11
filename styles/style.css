@@ -1,0 +1,66 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* primary */
+.highlight {
+  color: #e82424;
+}
+
+/* nav styles */
+.nav-container {
+  display: flex;
+  padding: 20px;
+  justify-content: space-around;
+  background-color: #9b9898;
+  color: #ffffff;
+}
+.items {
+  display: flex;
+  list-style: none;
+}
+.item {
+  margin-right: 10px;
+  font-size: 22px;
+  font-weight: 500;
+  padding: 5px;
+}
+
+/* banner styles */
+.banner-container {
+  width: 100%;
+  height: 100vh;
+  background-image: url("../asset/image/background.jpg"),
+    linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.4));
+  background-blend-mode: overlay;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: #fff;
+}
+.title {
+  font-size: 85px;
+  font-weight: bold;
+}
+.description {
+  font-size: 22px;
+  width: 50%;
+  margin: auto;
+  padding: 10px;
+}
+.btn {
+  padding: 15px 35px;
+  border: none;
+  font-size: 18px;
+  margin: 5px;
+}
+.btn-discover {
+  background-color: #e82424;
+  color: #fff;
+}
+.btn-hire {
+  color: #e82424;
+}
